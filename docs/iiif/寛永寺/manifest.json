@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json",
+    "@type": "sc:Manifest",
+    "attribution": "寛永寺",
+    "label": "寛永寺",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "related": "http://universalviewer.io/examples/uv/uv.html#?manifest=https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2529,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/寛永寺/寛永寺１：東都上野東叡山全図　（葵の間什物）.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2529,
+                                "width": 5189
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/寛永寺/寛永寺１：東都上野東叡山全図　（葵の間什物）.jpg"
+                    },
+                    "width": 5189
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/shajikaido/files/medium/寛永寺/寛永寺１：東都上野東叡山全図　（葵の間什物）.jpg"
+    },
+    "viewingDirection": "right-to-left"
+}

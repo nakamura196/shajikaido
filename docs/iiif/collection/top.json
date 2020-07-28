@@ -1,0 +1,44 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/shajikaido/iiif/collection/top.json",
+    "@type": "sc:Collection",
+    "label": "社寺会堂デジタルアーカイブラボ",
+    "manifests": [
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/アッサラームファンデーション候補画像/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "アッサラームファンデーション候補画像",
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/アッサラームファンデーション候補画像/20190605_081738.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/寛永寺/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "寛永寺",
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/寛永寺/寛永寺１：東都上野東叡山全図　（葵の間什物）.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "神田明神",
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴のコピー.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/湯島聖堂/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "湯島聖堂",
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/湯島聖堂/第1回夏期修養會：記念写真：1936.8月.jpg"
+        },
+        {
+            "@context": "http://iiif.io/api/presentation/2/context.json",
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/湯島天満宮/manifest.json",
+            "@type": "sc:Manifest",
+            "label": "湯島天満宮",
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/湯島天満宮/DSC_1088 (2).jpg"
+        }
+    ],
+    "vhint": "use-thumb"
+}

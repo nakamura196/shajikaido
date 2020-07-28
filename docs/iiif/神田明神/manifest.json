@@ -1,0 +1,323 @@
+{
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json",
+    "@type": "sc:Manifest",
+    "attribution": "神田明神",
+    "label": "神田明神",
+    "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "related": "http://universalviewer.io/examples/uv/uv.html#?manifest=https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json",
+    "sequences": [
+        {
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/sequence/normal",
+            "@type": "sc:Sequence",
+            "canvases": [
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p1",
+                    "@type": "sc:Canvas",
+                    "height": 2457,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p1-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p1",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/3枚綴のコピー.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 2457,
+                                "width": 4888
+                            }
+                        }
+                    ],
+                    "label": "[1]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴のコピー.jpg"
+                    },
+                    "width": 4888
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p2",
+                    "@type": "sc:Canvas",
+                    "height": 3744,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p2-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p2",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/令和元年の神田祭　町神輿渡御.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 3744,
+                                "width": 5616
+                            }
+                        }
+                    ],
+                    "label": "[2]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/令和元年の神田祭　町神輿渡御.jpg"
+                    },
+                    "width": 5616
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p3",
+                    "@type": "sc:Canvas",
+                    "height": 4912,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p3-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p3",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/令和元年の神田祭　神幸祭.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4912,
+                                "width": 7360
+                            }
+                        }
+                    ],
+                    "label": "[3]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/令和元年の神田祭　神幸祭.jpg"
+                    },
+                    "width": 7360
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p4",
+                    "@type": "sc:Canvas",
+                    "height": 1888,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p4-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p4",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/大正11年の神田祭.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 1888,
+                                "width": 3107
+                            }
+                        }
+                    ],
+                    "label": "[4]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/大正11年の神田祭.jpg"
+                    },
+                    "width": 3107
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p5",
+                    "@type": "sc:Canvas",
+                    "height": 5285,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p5-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p5",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/大正5年の神田祭.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 5285,
+                                "width": 3756
+                            }
+                        }
+                    ],
+                    "label": "[5]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/大正5年の神田祭.jpg"
+                    },
+                    "width": 3756
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p6",
+                    "@type": "sc:Canvas",
+                    "height": 4771,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p6-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p6",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/明治17年の神田祭.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 4771,
+                                "width": 6082
+                            }
+                        }
+                    ],
+                    "label": "[6]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/明治17年の神田祭.jpg"
+                    },
+                    "width": 6082
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p7",
+                    "@type": "sc:Canvas",
+                    "height": 9039,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p7-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p7",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/錦02-01-36-1.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9039,
+                                "width": 6097
+                            }
+                        }
+                    ],
+                    "label": "[7]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/錦02-01-36-1.jpg"
+                    },
+                    "width": 6097
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p8",
+                    "@type": "sc:Canvas",
+                    "height": 8942,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p8-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p8",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/錦02-01-36-2.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 8942,
+                                "width": 6097
+                            }
+                        }
+                    ],
+                    "label": "[8]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/錦02-01-36-2.jpg"
+                    },
+                    "width": 6097
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p9",
+                    "@type": "sc:Canvas",
+                    "height": 9019,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p9-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p9",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/錦02-01-36-3.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 9019,
+                                "width": 6078
+                            }
+                        }
+                    ],
+                    "label": "[9]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/錦02-01-36-3.jpg"
+                    },
+                    "width": 6078
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p10",
+                    "@type": "sc:Canvas",
+                    "height": 8736,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p10-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p10",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/錦02-01-87　神田祭出しづくし001.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 8736,
+                                "width": 6156
+                            }
+                        }
+                    ],
+                    "label": "[10]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/錦02-01-87　神田祭出しづくし001.jpg"
+                    },
+                    "width": 6156
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p11",
+                    "@type": "sc:Canvas",
+                    "height": 8736,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p11-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p11",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/錦02-01-87　神田祭出しづくし002.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 8736,
+                                "width": 6156
+                            }
+                        }
+                    ],
+                    "label": "[11]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/錦02-01-87　神田祭出しづくし002.jpg"
+                    },
+                    "width": 6156
+                },
+                {
+                    "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p12",
+                    "@type": "sc:Canvas",
+                    "height": 8736,
+                    "images": [
+                        {
+                            "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/annotation/p12-image",
+                            "@type": "oa:Annotation",
+                            "motivation": "sc:painting",
+                            "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p12",
+                            "resource": {
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/錦02-01-87　神田祭出しづくし003.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "height": 8736,
+                                "width": 6156
+                            }
+                        }
+                    ],
+                    "label": "[12]",
+                    "thumbnail": {
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/錦02-01-87　神田祭出しづくし003.jpg"
+                    },
+                    "width": 6156
+                }
+            ],
+            "label": "Current Page Order",
+            "viewingHint": "non-paged"
+        }
+    ],
+    "thumbnail": {
+        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴のコピー.jpg"
+    },
+    "viewingDirection": "right-to-left"
+}
