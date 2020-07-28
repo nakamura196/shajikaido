@@ -2,6 +2,7 @@
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://nakamura196.github.io/shajikaido/iiif/collection/top.json",
     "@type": "sc:Collection",
+    "description": "社寺会堂プロジェクトチームに参加する学術・宗教６施設はそれぞれ隣接する地域のなかで精神文化を支えてきました。それぞれの施設の歴史や活動については独立して取り上げられることが多く、地域のなかで横断して通時的・共時的に捉える機会は多くありません。そうした「点」としての各施設を、デジタルアーカイブによって「線」として結び、地域という「面」のなかに位置付けるワークショップを開催します。",
     "label": "社寺会堂デジタルアーカイブラボ",
     "manifests": [
         {
@@ -40,5 +41,6 @@
             "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/湯島天満宮/DSC_1088 (2).jpg"
         }
     ],
+    "thumbnail": "https://prtimes.jp/i/25172/22/resize/d25172-22-526545-2.png",
     "vhint": "use-thumb"
 }

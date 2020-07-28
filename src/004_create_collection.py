@@ -18,8 +18,10 @@ def get_collection(df):
 
     label = df.iloc[1, 0]
     url = df.iloc[1, 1]
+    description = df.iloc[1, 2]
+    thumbnail = df.iloc[1, 3]
 
-    return label, url
+    return label, url, description, thumbnail
 
 
 df_item = pd.read_excel(path, sheet_name="item", header=None, index_col=None)
@@ -28,7 +30,7 @@ df_collection = pd.read_excel(path, sheet_name="collection", header=None, index_
 r_count = len(df_item.index)
 c_count = len(df_item.columns)
 
-collection_label, collection_url = get_collection(df_collection)
+collection_label, collection_url, collection_description, collection_thumbnail = get_collection(df_collection)
 
 manifests = []
 
@@ -72,6 +74,12 @@ collection = {
     "manifests": manifests,
     "vhint": "use-thumb"
 }
+
+if collection_description:
+    collection["description"] = collection_description
+
+if collection_thumbnail:
+    collection["thumbnail"] = collection_thumbnail
 
 opath = collection_url.replace(prefix, odir)
 tmp = os.path.split(opath)
