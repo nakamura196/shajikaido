@@ -32,7 +32,9 @@ rows_3 = [
     ["社寺会堂デジタルアーカイブラボ", prefix_url+"/iiif/collection/top.json", "社寺会堂プロジェクトチームに参加する学術・宗教６施設はそれぞれ隣接する地域のなかで精神文化を支えてきました。それぞれの施設の歴史や活動については独立して取り上げられることが多く、地域のなかで横断して通時的・共時的に捉える機会は多くありません。そうした「点」としての各施設を、デジタルアーカイブによって「線」として結び、地域という「面」のなかに位置付けるワークショップを開催します。", "https://prtimes.jp/i/25172/22/resize/d25172-22-526545-2.png"]
 ]
 
-ids = ["アッサラームファンデーション候補画像", "寛永寺", "神田明神", "湯島聖堂", "湯島天満宮"]
+ids = {
+    "assalaamfoundation" : "アッサラームファンデーション候補画像", 
+    "寛永寺": "寛永寺", "神田明神": "神田明神", "湯島聖堂": "湯島聖堂", "湯島天満宮": "湯島天満宮"}
 
 for id in ids:
     files = glob.glob(prefix_path + "/files/original/"+id+"/*.jpg", recursive=True)
@@ -54,7 +56,7 @@ for id in ids:
 
     manifest = prefix_url + "/iiif/"+id+"/manifest.json"
 
-    rows_0.append([id, id, thumbnail_url_0, manifest, "http://iiif.io/api/presentation/2#rightToLeftDirection", "http://universalviewer.io/examples/uv/uv.html#?manifest="+manifest, "", "http://creativecommons.org/publicdomain/zero/1.0/", id])
+    rows_0.append([id, ids[id], thumbnail_url_0, manifest, "http://iiif.io/api/presentation/2#rightToLeftDirection", "http://universalviewer.io/examples/uv/uv.html#?manifest="+manifest, "", "http://creativecommons.org/publicdomain/zero/1.0/", id])
 
 df_0 = pd.DataFrame(rows_0)
 df_1 = pd.DataFrame(rows_1)

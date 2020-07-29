@@ -7,9 +7,10 @@
     "manifests": [
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
-            "@id": "https://nakamura196.github.io/shajikaido/iiif/アッサラームファンデーション候補画像/manifest.json",
+            "@id": "https://nakamura196.github.io/shajikaido/iiif/assalaamfoundation/manifest.json",
             "@type": "sc:Manifest",
-            "label": "アッサラームファンデーション候補画像"
+            "label": "アッサラームファンデーション候補画像",
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/assalaamfoundation/20190605_081738.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
