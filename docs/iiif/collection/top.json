@@ -9,8 +9,7 @@
             "@context": "http://iiif.io/api/presentation/2/context.json",
             "@id": "https://nakamura196.github.io/shajikaido/iiif/アッサラームファンデーション候補画像/manifest.json",
             "@type": "sc:Manifest",
-            "label": "アッサラームファンデーション候補画像",
-            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/アッサラームファンデーション候補画像/20190605_081738.jpg"
+            "label": "アッサラームファンデーション候補画像"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",
