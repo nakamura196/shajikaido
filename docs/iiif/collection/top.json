@@ -24,7 +24,7 @@
             "@id": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json",
             "@type": "sc:Manifest",
             "label": "神田明神",
-            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴のコピー.jpg"
+            "thumbnail": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴.jpg"
         },
         {
             "@context": "http://iiif.io/api/presentation/2/context.json",

@@ -7,7 +7,7 @@ import os
 from PIL import Image
 import glob
 
-files = glob.glob("../files/**/*.jpg", recursive=True)
+files = glob.glob("../docs/files/**/*.jpg", recursive=True)
 
 for i in range(len(files)):
     print(i, len(files), files[i])

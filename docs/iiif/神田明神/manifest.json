@@ -22,7 +22,7 @@
                             "motivation": "sc:painting",
                             "on": "https://nakamura196.github.io/shajikaido/iiif/神田明神/manifest.json/canvas/p1",
                             "resource": {
-                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/3枚綴のコピー.jpg",
+                                "@id": "https://nakamura196.github.io/shajikaido/files/original/神田明神/3枚綴.jpg",
                                 "@type": "dctypes:Image",
                                 "format": "image/jpeg",
                                 "height": 2457,
@@ -32,7 +32,7 @@
                     ],
                     "label": "[1]",
                     "thumbnail": {
-                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴のコピー.jpg"
+                        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴.jpg"
                     },
                     "width": 4888
                 },
@@ -317,7 +317,7 @@
         }
     ],
     "thumbnail": {
-        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴のコピー.jpg"
+        "@id": "https://nakamura196.github.io/shajikaido/files/medium/神田明神/3枚綴.jpg"
     },
     "viewingDirection": "right-to-left"
 }
