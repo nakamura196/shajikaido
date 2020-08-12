@@ -42,5 +42,6 @@
         }
     ],
     "thumbnail": "https://prtimes.jp/i/25172/22/resize/d25172-22-526545-2.png",
-    "vhint": "use-thumb"
+    "vhint": "use-thumb",
+    "viewingHint": "grid"
 }

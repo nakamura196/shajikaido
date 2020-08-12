@@ -72,7 +72,8 @@ collection = {
     "@type": "sc:Collection",
     "label": collection_label,
     "manifests": manifests,
-    "vhint": "use-thumb"
+    "vhint": "use-thumb",
+    "viewingHint" : "grid"
 }
 
 if collection_description:
